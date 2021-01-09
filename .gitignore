@@ -1,3 +1,6 @@
+.env
+playground.ipynb
+
 # IntelliJ
 target/
 .idea/

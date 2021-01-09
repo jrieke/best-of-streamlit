@@ -1,19 +1,236 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  min_projectrank: 0
+  min_stars: 0
+  project_new_months: 3
+  project_inactive_months: 12
+  project_dead_months: 10000
+  require_license: False
+  require_github: False
+  generate_install_hints: False
+  generate_toc: False
+  generate_legend: False
+  hide_license_risk: False
+  sort_by: star_count
+  # skip_existing_screenshots: True
+  skip_screenshots: True
+  wait_before_screenshot: 10
+  show_projects_per_category: 9
 
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
-
-labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+  - category: ml
+    title: 🤖 General Machine Learning
+  - category: nlp
+    title: 📚 Natural Language Processing
+  - category: cv
+    title: 👁️ Computer Vision
+  - category: audio
+    title: 🎵 Audio
+  - category: sci-tech
+    title: 🔬 Science & Technology
+  - category: other
+    title: 🚀 Non-ML Apps
+  - category: extensions
+    title: 🧰 Extensions & Components
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+  - name: traingenerator
+    homepage: https://traingenerator.jrieke.com/
+    image: https://github.com/jrieke/traingenerator/raw/main/docs/assets/demo.gif
+    github_id: jrieke/traingenerator
+    category: ml
+    show: True
+  - name: Year on Github
+    homepage: http://gh2020.jrieke.com/
+    image: https://github.com/jrieke/year-on-github/raw/main/images/demo.gif
+    github_id: jrieke/year-on-github
+    category: other
+    show: True
+  - name: Interactive COVID-19 Dashboard
+    homepage: https://covid19.multivacplatform.org/
+    description: Analyze the cumulative data of confirmed, deaths, and recovered cases over time
+    category: sci-tech
+    show: True
+  - name: Covid19-Scotland
+    homepage: https://github.com/heyad/covid19
+    image: https://github.com/heyad/covid19/raw/master/covid19_Scotland/figures/intro.png
+    github_id: heyad/covid19
+    category: sci-tech
+    show: True
+  - name: Picture-lytics
+    homepage: https://github.com/KimaruThagna/Picture-lytics
+    github_id: KimaruThagna/Picture-lytics
+    category: cv
+    show: True
+  - name: Covid-19 Data Explorer
+    homepage: https://covid19.cwerner.ai/
+    image: https://github.com/cwerner/covid19/raw/master/assets/screenshot.png?raw=true
+    github_id: cwerner/covid19
+    category: sci-tech
+    show: True
+  - name: Squote
+    homepage: https://github.com/cjwallace/squote
+    image: https://user-images.githubusercontent.com/6513950/67687144-bee79b80-f98f-11e9-975f-76c71207f7a0.gif
+    github_id: cjwallace/squote
+    category: nlp
+    show: True
+  - name: Headliner Demo
+    homepage: https://github.com/as-ideas/headliner-demo
+    github_id: as-ideas/headliner-demo
+    image: https://github.com/as-ideas/headliner/raw/master/figures/headline_generator.png
+    category: nlp
+    show: True
+  - name: spacy-streamlit
+    homepage: https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py
+    image: https://user-images.githubusercontent.com/13643239/85388081-f2da8700-b545-11ea-9bd4-e303d3c5763c.png
+    github_id: explosion/spacy-streamlit
+    category: nlp
+    show: True
+  - name: Insight
+    homepage: https://github.com/abhimishra91/insight
+    github_id: abhimishra91/insight
+    image: https://github.com/abhimishra91/insight/raw/master/meta/streamlit-NLPfiy.gif
+    category: nlp
+    show: True
+  - name: net2net
+    homepage: https://github.com/CompVis/net2net
+    github_id: CompVis/net2net
+    category: cv
+    show: True
+  - name: streamlit-fastapi-model-serving
+    homepage: https://github.com/davidefiocco/streamlit-fastapi-model-serving
+    image: https://davidefiocco.github.io/images/2020-06-27-streamlit.png
+    github_id: davidefiocco/streamlit-fastapi-model-serving
+    category: ml
+    show: True
+  - name: Drawable Canvas
+    homepage: https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py
+    image: https://github.com/andfanilo/streamlit-drawable-canvas/raw/master/img/demo.gif
+    github_id: andfanilo/streamlit-drawable-canvas
+    category: other
+    show: True
+  - name: End-to-End ML App w/ PyTorch
+    homepage: https://github.com/madewithml/e2e-ml-app-pytorch
+    github_id: madewithml/e2e-ml-app-pytorch
+    category: ml
+    show: True
+  - name: ContainDS Dashboards
+    homepage: https://github.com/ideonate/cdsdashboards
+    image: https://github.com/ideonate/cdsdashboards/raw/master/docs/_static/screenshots/AppCollage.png
+    github_id: ideonate/cdsdashboards
+    category: extensions
+    show: True
+  - name: chime soundboard
+    homepage: http://chime-soundboard.herokuapp.com/
+    github_id: MaxHalford/chime
+    category: audio
+    show: True
+  - name: FarolCovid
+    homepage: https://farolcovid.coronacidades.org/
+    github_id: ImpulsoGov/farolcovid
+    category: sci-tech
+    show: True
+  - name: COCO Explorer
+    homepage: https://github.com/i008/COCO-dataset-explorer
+    image: https://github.com/i008/COCO-dataset-explorer/raw/master/static/demo1.png
+    github_id: i008/COCO-dataset-explorer
+    category: cv
+    show: True
+  - name: Torchserve Dashboard
+    homepage: https://github.com/cceyda/torchserve-dashboard
+    image: https://github.com/cceyda/torchserve-dashboard/raw/master/assets/dashboard_demo.gif
+    github_id: cceyda/torchserve-dashboard
+    category: ml
+    show: True
+  - name: Object detection app
+    homepage: https://github.com/robmarkcole/object-detection-app
+    image: https://github.com/robmarkcole/object-detection-app/raw/master/images/usage.jpg
+    github_id: robmarkcole/object-detection-app
+    category: cv
+    show: True
+  - name: streamlit-observable
+    homepage: https://streamlit-observable.herokuapp.com/
+    github_id: asg017/streamlit-observable
+    category: extensions
+    show: True
+  - name: streamlit-echarts
+    homepage: https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py
+    image: https://github.com/andfanilo/streamlit-echarts/raw/master/img/demo.gif
+    github_id: andfanilo/streamlit-echarts
+    category: extensions
+    show: True
+  - name: Style transfer web app
+    homepage: https://github.com/amalshaji/style-transfer
+    github_id: amalshaji/style-transfer
+    category: cv
+    show: True
+  - name: D3 Demo in Streamlit
+    homepage: https://github.com/andfanilo/streamlit-d3-demo
+    image: https://github.com/andfanilo/streamlit-d3-demo/raw/master/images/demo.gif
+    github_id: andfanilo/streamlit-d3-demo
+    category: other
+    show: True
+  - name: Raylab
+    homepage: https://github.com/angelolovatto/raylab
+    image: https://camo.githubusercontent.com/cec5409c95fcb5523288931681b52e607ff466407efb27820636d031042afb05/68747470733a2f2f692e696d6775722e636f6d2f625663365743352e706e67
+    github_id: angelolovatto/raylab
+    category: ml
+    show: True
+  - name: Auto Vaidya
+    homepage: https://auto-vaidya.herokuapp.com/
+    github_id: Auto-Vaidya/auto_vaidya
+    category: sci-tech
+    show: True
+  - name: Matplotlib style configurator
+    homepage: https://github.com/dhaitz/matplotlib-style-configurator
+    github_id: dhaitz/matplotlib-style-configurator
+    category: other
+    show: True
+  - name: Webapp Computer Vision
+    homepage: https://github.com/amineHY/WebApp-Computer-Vision-streamlit
+    image: https://github.com/amineHY/WebApp-Computer-Vision-streamlit/raw/master/media/preview_app.gif
+    github_id: amineHY/WebApp-Computer-Vision-streamlit
+    description: Computer Vision application in the web
+    category: cv
+    show: True
+  - name: Genetic Ancestry Visualization
+    homepage: http://ezancestry.herokuapp.com/
+    image: https://github.com/arvkevi/ezancestry/raw/master/images/ezancestry.png
+    github_id: arvkevi/ezancestry
+    category: sci-tech
+    show: True
+  - name: Indian ALPR System
+    homepage: https://github.com/udaylunawat/Automatic-License-Plate-Recognition
+    image: https://camo.githubusercontent.com/d1ead79cb4338307cff2eb72ec89ec57da5e002feb9432c8b5a4586c730c2290/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6944784d6970745976666a42714a786447792f67697068792e676966
+    github_id: udaylunawat/Automatic-License-Plate-Recognition
+    category: cv
+    show: True
+  - name: Rick and Morty Story Generator
+    homepage: https://share.streamlit.io/e-tony/story_generator/main/app.py
+    github_id: e-tony/Story_Generator
+    category: nlp
+    show: True
+  - name: Image Classification App
+    homepage: https://github.com/smaranjitghose/img_ai_app_boilerplate
+    github_id: smaranjitghose/img_ai_app_boilerplate
+    category: cv
+    show: True
+  - name: Gravitational Wave App
+    homepage: https://share.streamlit.io/jkanner/streamlit-dataview/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fe3b32bb3d503528eac8707_image.jpg
+    github_id: jkanner/streamlit-dataview
+    category: sci-tech
+    show: True
+  - name: Covid Tracking
+    homepage: https://share.streamlit.io/panditpranav/svm_covid_tracking/main/COVID_app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fb670b335879e9b9f2e71be_covid.jpg
+    github_id: PanditPranav/SVM_COVID_tracking
+    category: sci-tech
+    show: True
+  - name: Cheat Sheet
+    homepage: https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py
+    image: https://github.com/daniellewisDL/streamlit-cheat-sheet/raw/master/streamlit-cheat-sheet.png
+    github_id: daniellewisDL/streamlit-cheat-sheet
+    category: extensions
+    show: True

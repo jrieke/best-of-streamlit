@@ -1,16 +1,21 @@
 <!-- markdownlint-disable MD024 -->
+
+TODO: This is the file from the template repo, needs to be updated.
 # Contribution Guidelines
 
 Thanks for your interest in contributing to our project. This page will give you a quick overview of how things are organized and, most importantly, how to get involved. Everyone is welcome to contribute, and we value everybody's contribution.
 
 ## Table of contents
 
-1. [Add a project](#add-a-project)
-2. [Update a project](#update-a-project)
-3. [Improve metadata collection](#improve-metadata-collection)
-4. [Improve markdown generation](#improve-markdown-generation)
-5. [Create your own best-of list](#improve-markdown-generation)
-6. [Code of conduct](#code-of-conduct)
+- [Contribution Guidelines](#contribution-guidelines)
+  - [Table of contents](#table-of-contents)
+  - [Add a project](#add-a-project)
+  - [Update a project](#update-a-project)
+  - [Project properties](#project-properties)
+  - [Improve metadata collection](#improve-metadata-collection)
+  - [Improve markdown generation](#improve-markdown-generation)
+  - [Create your own best-of list](#create-your-own-best-of-list)
+  - [Code of Conduct](#code-of-conduct)
 
 ## Add a project
 
