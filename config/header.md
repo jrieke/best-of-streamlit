@@ -21,4 +21,8 @@ This curated list contains {project_count} streamlit apps from {category_count} 
 
 <br>
 
+---
+
 <h3 align="center"><a href="README-mobile.md">View mobile-optimized version</a></h3>
+
+---
