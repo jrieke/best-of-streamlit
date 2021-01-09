@@ -23,7 +23,7 @@ This curated list contains 35 streamlit apps from 7 categories, ranked by Github
 
 ---
 
-<h3 align="center"><a href="README-mobile.md">View desktop-optimized version</a></h3>
+<h3 align="center"><a href="README.md">View desktop-optimized version</a></h3>
 
 ---
 
