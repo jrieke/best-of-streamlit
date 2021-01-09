@@ -47,7 +47,7 @@ projects:
     github_id: jrieke/year-on-github
     category: other
     show: True
-  - name: Interactive COVID-19 Dashboard
+  - name: Interactive COVID-19
     homepage: https://covid19.multivacplatform.org/
     description: Analyze the cumulative data of confirmed, deaths, and recovered cases over time
     category: sci-tech
@@ -98,7 +98,7 @@ projects:
     github_id: CompVis/net2net
     category: cv
     show: True
-  - name: streamlit-fastapi-model-serving
+  - name: FastAPI Model Serving
     homepage: https://github.com/davidefiocco/streamlit-fastapi-model-serving
     image: https://davidefiocco.github.io/images/2020-06-27-streamlit.png
     github_id: davidefiocco/streamlit-fastapi-model-serving
@@ -110,7 +110,7 @@ projects:
     github_id: andfanilo/streamlit-drawable-canvas
     category: other
     show: True
-  - name: End-to-End ML App w/ PyTorch
+  - name: E2E ML App w/ PyTorch
     homepage: https://github.com/madewithml/e2e-ml-app-pytorch
     github_id: madewithml/e2e-ml-app-pytorch
     category: ml
@@ -182,7 +182,7 @@ projects:
     github_id: Auto-Vaidya/auto_vaidya
     category: sci-tech
     show: True
-  - name: Matplotlib style configurator
+  - name: Matplotlib Configurator
     homepage: https://github.com/dhaitz/matplotlib-style-configurator
     github_id: dhaitz/matplotlib-style-configurator
     category: other
@@ -194,7 +194,7 @@ projects:
     description: Computer Vision application in the web
     category: cv
     show: True
-  - name: Genetic Ancestry Visualization
+  - name: Genetic Ancestry
     homepage: http://ezancestry.herokuapp.com/
     image: https://github.com/arvkevi/ezancestry/raw/master/images/ezancestry.png
     github_id: arvkevi/ezancestry
@@ -206,7 +206,7 @@ projects:
     github_id: udaylunawat/Automatic-License-Plate-Recognition
     category: cv
     show: True
-  - name: Rick and Morty Story Generator
+  - name: Rick & Morty Generator
     homepage: https://share.streamlit.io/e-tony/story_generator/main/app.py
     github_id: e-tony/Story_Generator
     category: nlp
