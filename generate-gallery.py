@@ -75,10 +75,6 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
     project_md += f'<h3><a href="{project.homepage}">{project.name}</a></h3>'
 
     metrics = []
-    if project.star_count:
-        metrics.append(f"⭐ {str(best_of.utils.simplify_number(project.star_count))}")
-    if project.github_url:
-        metrics.append(f'<a href="{project.github_url}">:octocat: Code</a>')
     if project.created_at:
         project_total_month = best_of.utils.diff_month(
             datetime.now(), project.created_at
@@ -87,7 +83,11 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
             configuration.project_new_months
             and int(configuration.project_new_months) >= project_total_month
         ):
-            metrics.append("🐣")
+            metrics.append("🐣 New")
+    if project.star_count:
+        metrics.append(f"⭐ {str(best_of.utils.simplify_number(project.star_count))}")
+    if project.github_url:
+        metrics.append(f'<a href="{project.github_url}">:octocat: Code</a>')
 
     if metrics:
         metrics_str = " · ".join(metrics)
