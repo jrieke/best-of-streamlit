@@ -18,3 +18,7 @@
 This curated list contains {project_count} streamlit apps from {category_count} categories, ranked by Github stars (in total, the projects have {stars_count} stars!). To add or update a project, please open an [issue](https://github.com/best-of-lists/best-of/issues/new/choose) or add it directly to [projects.yaml](projects.yaml) (instructions [at the end of this file](#Contributing)). Contributions are very welcome!
 
 > 🧙‍♂️ Create your own best-of list in just 3 minutes with [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+
+<br>
+
+<h3 align="center"><a href="README-mobile.md">View mobile-optimized version</a></h3>
