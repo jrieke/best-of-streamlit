@@ -16,7 +16,8 @@ configuration:
   # skip_existing_screenshots: True
   skip_screenshots: True
   wait_before_screenshot: 10
-  show_projects_per_category: 9
+  projects_per_category: 9
+  projects_per_row: 3
 
 categories:
   - category: ml

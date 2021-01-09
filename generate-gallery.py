@@ -106,7 +106,7 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
 def generate_table_html(projects: list, config: Dict, labels: Dict):
     """Generates a table for several projects."""
     table_html = '<table width="100%">'
-    for project_row in chunker(projects, 3):
+    for project_row in chunker(projects, config.get("projects_per_row", 3)):
         print("new row:")
         table_html += '<tr align="center">'
         for project in project_row:
@@ -149,7 +149,7 @@ def generate_category_gallery_md(
 
     if category.projects:
         # Show top projects directly (in a html table).
-        num_shown = config.get("show_projects_per_category", 6)
+        num_shown = config.get("projects_per_category", 6)
         table_html = generate_table_html(category.projects[:num_shown], config, labels)
         category_md += table_html + "\n\n"
 
