@@ -48,6 +48,12 @@ projects:
     github_id: jrieke/year-on-github
     category: other
     show: True
+  - name: streamlit-analytics
+    homepage: https://github.com/jrieke/streamlit-analytics
+    image: https://github.com/jrieke/streamlit-analytics/raw/main/images/example.png
+    github_id: jrieke/streamlit-analytics
+    category: extensions
+    show: True
   - name: Interactive COVID-19
     homepage: https://covid19.multivacplatform.org/
     description: Analyze the cumulative data of confirmed, deaths, and recovered cases over time
