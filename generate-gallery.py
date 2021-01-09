@@ -100,6 +100,10 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
         description = description[:-1]
     project_md += f"<p>{description}</p>"
 
+    if project.github_id:
+        author = project.github_id.split("/")[0]
+        project_md += f'<p><sup>by <a href="@{author}">@{author}</a></sup></p>'
+
     return project_md
 
 
