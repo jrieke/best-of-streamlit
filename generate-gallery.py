@@ -102,7 +102,9 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
 
     if project.github_id:
         author = project.github_id.split("/")[0]
-        project_md += f'<p><sup>by <a href="@{author}">@{author}</a></sup></p>'
+        project_md += (
+            f'<p><sup>by <a href="https://github.com/{author}">@{author}</a></sup></p>'
+        )
 
     return project_md
 
