@@ -13,7 +13,10 @@ and at [projects.yaml](projects.yaml) itself.
 
 ## Related Resources
 
-- [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
+- [**awesome-streamlit**](https://github.com/MarcSkovMadsen/awesome-streamlit): Website with several built-in streamlit apps and other resources
+- [**Streamlit App Gallery**](https://www.streamlit.io/gallery): Official gallery with tweets about new streamlit apps
+- [**Streamlit Components**](https://www.streamlit.io/components): Official collection of featured streamlit components
+- [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics
 
 <!-- ## Contribution
 
