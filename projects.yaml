@@ -32,7 +32,7 @@ categories:
     title: 🔬 Science & Technology
   - category: non-ml
     title: 🚀 Non-ML Apps
-  - category: extensions
+  - category: extension
     title: 🧰 Extensions & Components
 
 projects:
@@ -52,7 +52,7 @@ projects:
     homepage: https://github.com/jrieke/streamlit-analytics
     image: https://github.com/jrieke/streamlit-analytics/raw/main/images/example.png
     github_id: jrieke/streamlit-analytics
-    category: extensions
+    category: extension
     show: True
   - name: Interactive COVID-19
     homepage: https://covid19.multivacplatform.org/
@@ -126,7 +126,7 @@ projects:
     homepage: https://github.com/ideonate/cdsdashboards
     image: https://github.com/ideonate/cdsdashboards/raw/master/docs/_static/screenshots/AppCollage.png
     github_id: ideonate/cdsdashboards
-    category: extensions
+    category: extension
     show: True
   - name: chime soundboard
     homepage: http://chime-soundboard.herokuapp.com/
@@ -159,13 +159,13 @@ projects:
   - name: streamlit-observable
     homepage: https://streamlit-observable.herokuapp.com/
     github_id: asg017/streamlit-observable
-    category: extensions
+    category: extension
     show: True
   - name: streamlit-echarts
     homepage: https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py
     image: https://github.com/andfanilo/streamlit-echarts/raw/master/img/demo.gif
     github_id: andfanilo/streamlit-echarts
-    category: extensions
+    category: extension
     show: True
   - name: Style transfer web app
     homepage: https://github.com/amalshaji/style-transfer
@@ -239,5 +239,5 @@ projects:
     homepage: https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py
     image: https://github.com/daniellewisDL/streamlit-cheat-sheet/raw/master/streamlit-cheat-sheet.png
     github_id: daniellewisDL/streamlit-cheat-sheet
-    category: extensions
+    category: extension
     show: True
