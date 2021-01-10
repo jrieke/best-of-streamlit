@@ -18,6 +18,13 @@ def chunker(seq, size):
     return (seq[pos : pos + size] for pos in range(0, len(seq), size))
 
 
+def shorten(s, max_len):
+    """Shorten a string by appending ... if it's too long."""
+    if len(s) > max_len:
+        s = s[: max_len - 3] + "..."
+    return s
+
+
 async def save_screenshot(
     url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
 ):
@@ -93,11 +100,10 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
         metrics_str = " · ".join(metrics)
         project_md += f"<p>{metrics_str}</p>"
 
-    description = best_of.utils.process_description(project.description, 100)
-    if description[:-2] == "..":
-        description += "."
-    elif description[-1] == ".":
+    description = project.description
+    if description[-1] == ".":  # descriptions returned by best-of end with .
         description = description[:-1]
+    description = shorten(description, 90)
     project_md += f"<p>{description}</p>"
 
     if project.github_id:
@@ -112,11 +118,12 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
 def generate_table_html(projects: list, config: Dict, labels: Dict):
     """Generates a table for several projects."""
     table_html = '<table width="100%">'
+    print("Creating table...")
     for project_row in chunker(projects, config.get("projects_per_row", 3)):
-        print("new row:")
+        print("New row:")
         table_html += '<tr align="center">'
         for project in project_row:
-            print(project.name)
+            print("- " + project.name)
             # table_html += project.name
             project_md = generate_project_html(project, config, labels)
             table_html += f'<td valign="top" width="33.3%">{project_md}</td>'
