@@ -30,7 +30,7 @@ categories:
     title: 🎵 Audio
   - category: sci-tech
     title: 🔬 Science & Technology
-  - category: other
+  - category: non-ml
     title: 🚀 Non-ML Apps
   - category: extensions
     title: 🧰 Extensions & Components
@@ -46,7 +46,7 @@ projects:
     homepage: http://gh2020.jrieke.com/
     image: https://github.com/jrieke/year-on-github/raw/main/images/demo.gif
     github_id: jrieke/year-on-github
-    category: other
+    category: non-ml
     show: True
   - name: streamlit-analytics
     homepage: https://github.com/jrieke/streamlit-analytics
@@ -115,7 +115,7 @@ projects:
     homepage: https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py
     image: https://github.com/andfanilo/streamlit-drawable-canvas/raw/master/img/demo.gif
     github_id: andfanilo/streamlit-drawable-canvas
-    category: other
+    category: non-ml
     show: True
   - name: E2E ML App w/ PyTorch
     homepage: https://github.com/madewithml/e2e-ml-app-pytorch
@@ -176,7 +176,7 @@ projects:
     homepage: https://github.com/andfanilo/streamlit-d3-demo
     image: https://github.com/andfanilo/streamlit-d3-demo/raw/master/images/demo.gif
     github_id: andfanilo/streamlit-d3-demo
-    category: other
+    category: non-ml
     show: True
   - name: Raylab
     homepage: https://github.com/angelolovatto/raylab
@@ -192,7 +192,7 @@ projects:
   - name: Matplotlib Configurator
     homepage: https://github.com/dhaitz/matplotlib-style-configurator
     github_id: dhaitz/matplotlib-style-configurator
-    category: other
+    category: non-ml
     show: True
   - name: Webapp Computer Vision
     homepage: https://github.com/amineHY/WebApp-Computer-Vision-streamlit
