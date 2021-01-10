@@ -17,7 +17,7 @@ configuration:
   skip_screenshots: True
   wait_before_screenshot: 10
   projects_per_category: 9
-  projects_per_row: 3
+  projects_per_row: 1
 
 categories:
   - category: ml
@@ -34,6 +34,8 @@ categories:
     title: 🚀 Non-ML Apps
   - category: extension
     title: 🧰 Extensions & Components
+  - category: demo
+    title: 🎈 Official Demos
 
 projects:
   - name: traingenerator
@@ -241,3 +243,33 @@ projects:
     github_id: daniellewisDL/streamlit-cheat-sheet
     category: extension
     show: True
+  - name: Face-GAN Explorer
+    homepage: https://share.streamlit.io/streamlit/demo-face-gan/
+    image: https://assets.website-files.com/5eb1d49f3ed8c28a5a54769f/5ed14fdf59392828954fa44d_5e11152b0227d05a0277ae20_gan_website_large.gif
+    github_id: streamlit/demo-face-gan
+    category: demo
+    show: True
+  - name: Uber Pickups in NYC
+    homepage: https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/
+    image: https://assets.website-files.com/5eb1d49f3ed8c28a5a54769f/5ed15d215b6f4928a0997155_5e1115200227d0333277addb_uber_website_large.gif
+    github_id: streamlit/demo-uber-nyc-pickups
+    category: demo
+    show: True
+  - name: Udacity Self-driving Car
+    homepage: https://share.streamlit.io/streamlit/demo-self-driving
+    image: https://assets.website-files.com/5eb1d49f3ed8c28a5a54769f/5ed15d93ea8434e97414e47f_5e1115140227d02d6777adcb_AV_website_large.gif
+    github_id: streamlit/demo-self-driving
+    category: demo
+    show: True
+  - name: Deep Dream
+    homepage: https://github.com/streamlit/demo-deepdream
+    image: https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5ede25309928736fdf811d24_5e1115355aa398cf5ffd5c4e_deep_dream_website_large.gif
+    github_id: streamlit/demo-deepdream
+    category: demo
+    show: True
+  # - name:
+  #   homepage:
+  #   image:
+  #   github_id:
+  #   category:
+  #   show: True
