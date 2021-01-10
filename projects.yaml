@@ -50,7 +50,7 @@ projects:
     github_id: jrieke/year-on-github
     category: non-ml
     show: True
-  - name: streamlit-analytics
+  - name: Analytics
     homepage: https://github.com/jrieke/streamlit-analytics
     image: https://github.com/jrieke/streamlit-analytics/raw/main/images/example.png
     github_id: jrieke/streamlit-analytics
@@ -90,11 +90,11 @@ projects:
     image: https://github.com/as-ideas/headliner/raw/master/figures/headline_generator.png
     category: nlp
     show: True
-  - name: spacy-streamlit
+  - name: spaCy
     homepage: https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py
     image: https://user-images.githubusercontent.com/13643239/85388081-f2da8700-b545-11ea-9bd4-e303d3c5763c.png
     github_id: explosion/spacy-streamlit
-    category: nlp
+    category: extension
     show: True
   - name: Insight
     homepage: https://github.com/abhimishra91/insight
@@ -117,7 +117,7 @@ projects:
     homepage: https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py
     image: https://github.com/andfanilo/streamlit-drawable-canvas/raw/master/img/demo.gif
     github_id: andfanilo/streamlit-drawable-canvas
-    category: non-ml
+    category: extension
     show: True
   - name: E2E ML App w/ PyTorch
     homepage: https://github.com/madewithml/e2e-ml-app-pytorch
@@ -158,12 +158,12 @@ projects:
     github_id: robmarkcole/object-detection-app
     category: cv
     show: True
-  - name: streamlit-observable
+  - name: Observable
     homepage: https://streamlit-observable.herokuapp.com/
     github_id: asg017/streamlit-observable
     category: extension
     show: True
-  - name: streamlit-echarts
+  - name: ECharts
     homepage: https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py
     image: https://github.com/andfanilo/streamlit-echarts/raw/master/img/demo.gif
     github_id: andfanilo/streamlit-echarts
@@ -178,7 +178,7 @@ projects:
     homepage: https://github.com/andfanilo/streamlit-d3-demo
     image: https://github.com/andfanilo/streamlit-d3-demo/raw/master/images/demo.gif
     github_id: andfanilo/streamlit-d3-demo
-    category: non-ml
+    category: extension
     show: True
   - name: Raylab
     homepage: https://github.com/angelolovatto/raylab
@@ -241,7 +241,7 @@ projects:
     homepage: https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py
     image: https://github.com/daniellewisDL/streamlit-cheat-sheet/raw/master/streamlit-cheat-sheet.png
     github_id: daniellewisDL/streamlit-cheat-sheet
-    category: extension
+    category: non-ml
     show: True
   - name: Face-GAN Explorer
     homepage: https://share.streamlit.io/streamlit/demo-face-gan/
@@ -267,9 +267,111 @@ projects:
     github_id: streamlit/demo-deepdream
     category: demo
     show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
+  - name: HiPlot
+    homepage: https://facebookresearch.github.io/hiplot/tuto_streamlit.html
+    image: https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5efcfd29b5f47b2e77291252_Screen%20Recording%202020-07-01%20at%2006.08%20PM.gif
+    github_id: facebookresearch/hiplot
+    category: extension
+    show: True
+  - name: Agraph
+    homepage: https://github.com/ChrisChross/streamlit-agraph
+    image: https://github.com/ChrisChross/streamlit-agraph/raw/master/imgs/example2.png
+    github_id: ChrisChross/streamlit-agraph
+    category: extension
+    show: True
+  - name: AgGrid
+    homepage: https://share.streamlit.io/pablocfonseca/streamlit-aggrid/main/example.py
+    image: https://github.com/PablocFonseca/streamlit-aggrid/raw/main/group_selection_example.gif
+    github_id: PablocFonseca/streamlit-aggrid
+    category: extension
+    show: True
+  - name: Vega-Lite
+    homepage: https://github.com/domoritz/streamlit-vega-lite
+    image: https://github.com/domoritz/streamlit-vega-lite/raw/master/demo.gif
+    github_id: domoritz/streamlit-vega-lite
+    category: extension
+    show: True
+  - name: Terran Timeline
+    homepage: https://github.com/pento-group/streamlit-terran-timeline/
+    image: https://raw.githubusercontent.com/pento-group/streamlit-terran-timeline/master/resources/animation.gif
+    github_id: pento-group/streamlit-terran-timeline/
+    category: extension
+    show: True
+  - name: Disqus
+    homepage: https://share.streamlit.io/okld/streamlit-disqus-demo/main/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fdbadc19b3ab50d39d611dc_app2.jpg
+    github_id: okld/streamlit-disqus
+    category: extension
+    show: True
+  - name: Pandas Profiling
+    homepage: https://github.com/okld/streamlit-pandas-profiling
+    image: https://raw.githubusercontent.com/okld/streamlit-pandas-profiling/master/examples/streamlit_pandas_profiling_demo.gif
+    github_id: okld/streamlit-pandas-profiling
+    category: extension
+    show: True
+  - name: Embedcode
+    homepage: https://share.streamlit.io/randyzwitch/streamlit-embedcode/examples/streamlit_app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f033ac45f3ead8fc901f3ac_gh_gist_example.png
+    github_id: randyzwitch/streamlit-embedcode
+    category: extension
+    show: True
+  - name: Ace
+    homepage: https://share.streamlit.io/okld/streamlit-ace/demo/
+    image: https://raw.githubusercontent.com/okld/streamlit-ace/master/demo/streamlit_ace_demo.gif
+    github_id: okld/streamlit-ace
+    category: extension
+    show: True
+  - name: Discourse
+    homepage: https://share.streamlit.io/okld/streamlit-discourse-demo/main/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fdbadaf22a77e5914b03977_app3.jpg
+    github_id: okld/streamlit-discourse
+    category: extension
+    show: True
+  - name: Bokeh Events
+    homepage: https://github.com/ash2shukla/streamlit-bokeh-events
+    image: https://github.com/ash2shukla/streamlit-bokeh-events/raw/master/assets/plots.gif
+    github_id: ash2shukla/streamlit-bokeh-events
+    category: extension
+    show: True
+  - name: Folium
+    homepage: https://share.streamlit.io/randyzwitch/streamlit-folium/examples/streamlit_app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f1f0d5c15373567513a6b42_streamlit_folium_example.jpg
+    github_id: randyzwitch/streamlit-folium
+    category: extension
+    show: True
+  - name: 3dmol
+    homepage: https://github.com/napoles-uach/streamlit_3dmol
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f341f27935a5c69dd31edff_stmol_image.jpg
+    github_id: napoles-uach/streamlit_3dmol
+    category: extension
+    show: True
+  - name: Cropper
+    homepage: https://github.com/turner-anderson/streamlit-cropper
+    image: https://github.com/turner-anderson/streamlit-cropper/raw/master/img/demo.gif
+    github_id: turner-anderson/streamlit-cropper
+    category: extension
+    show: True
+  - name: Annotated Text
+    homepage: https://github.com/tvst/st-annotated-text
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f47a38cd2fa4ae6e089154c_annotated-text.jpg
+    github_id: tvst/st-annotated-text
+    category: extension
+    show: True
+  - name: Player
+    homepage: https://share.streamlit.io/okld/streamlit-player-demo/main/app.py
+    image: https://raw.githubusercontent.com/okld/streamlit-player-demo/main/app.png
+    github_id: okld/streamlit-player
+    category: extension
+    show: True
+  - name: Lottie
+    homepage: https://share.streamlit.io/andfanilo/streamlit-lottie-demo/master/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5ff89ebd92caec4726522fd7_Streamlit-Logo-Animation-1000100.gif
+    github_id: andfanilo/streamlit-lottie
+    category: extension
+    show: True
+  # - name: 
+  #   homepage: 
+  #   image: 
+  #   github_id: 
+  #   category: 
   #   show: True

@@ -171,7 +171,7 @@ def generate_category_gallery_md(
             hidden_table_html = generate_table_html(
                 category.projects[num_shown:], config, labels
             )
-            category_md += f"<br><details><summary><b>Show {len(category.projects) - num_shown} more projects...</b></summary><br>{hidden_table_html}</details>\n\n"
+            category_md += f'<br><details align="center"><summary><b>Show {len(category.projects) - num_shown} more for "{category.title}"</b></summary><br>{hidden_table_html}</details>\n\n'
 
     # This is actually not used here (because all projects are set to show:
     # True) but it's left here from the original `best_of.generate_category_md` function
