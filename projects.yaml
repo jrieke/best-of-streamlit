@@ -396,8 +396,8 @@ projects:
     show: True
   - name: Goodreads App
     homepage: https://share.streamlit.io/tylerjrichards/streamlit_goodreads_app/books.py
-    description: Analyzing Your Goodreads Reading Habits
     github_id: tylerjrichards/streamlit_goodreads_app
+    description: Analyzing Your Goodreads Reading Habits
     category: non-ml
     show: True
   - name: HTML Table Scraper
