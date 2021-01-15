@@ -30,6 +30,8 @@ categories:
     title: 🎵 Audio
   - category: sci-tech
     title: 🔬 Science & Technology
+  - category: business
+    title: 💰 Business & Economy
   - category: non-ml
     title: 🚀 Non-ML Apps
   - category: extension
@@ -374,7 +376,7 @@ projects:
   - name: EDA on Financial Dataset
     homepage: https://github.com/bukosabino/streamlit-demo-financial-eda
     github_id: bukosabino/streamlit-demo-financial-eda
-    category: non-ml
+    category: business
     show: True
   - name: Whatsapp Chat Analyzer
     homepage: https://whatsapp-chat-analyzer.herokuapp.com/
@@ -420,18 +422,94 @@ projects:
     github_id: AmeyaUpalanchi/streamlit-tensorflow-ml-app
     category: cv
     show: True
+  - name: GloVe Explorer
+    homepage: https://github.com/dkajtoch/glove_streamlit
+    image: https://github.com/dkajtoch/glove_streamlit/raw/master/screenshots/streamlit_glove_001.png
+    github_id: dkajtoch/glove_streamlit
+    category: nlp
+    show: True
+  - name: Sentiment Analyzer
+    homepage: https://github.com/patidarparas13/Sentiment-Analyzer-Tool
+    image: https://github.com/patidarparas13/Sentiment-Analyzer-Tool/raw/master/image.png
+    github_id: patidarparas13/Sentiment-Analyzer-Tool
+    category: nlp
+    show: True
+  - name: 🤗 Datasets Viewer
+    homepage: https://huggingface.co/datasets/viewer/
+    github_id: huggingface/datasets
+    category: nlp
+    show: True
+  - name: Zero Shot Topic Classification
+    homepage: https://huggingface.co/zero-shot/
+    description: This demo shows how 🤗 Transformers can be used for zero-shot topic classification, the task of predicting a topic that the model has not been trained on.
+    category: nlp
+    show: True
+  - name: Face Mask Detector
+    homepage: https://github.com/virtualramblas/streamlit-face-mask-detector
+    image: https://github.com/virtualramblas/streamlit-face-mask-detector/raw/master/images/demo_image.PNG
+    github_id: virtualramblas/streamlit-face-mask-detector
+    category: cv
+    show: True
+  - name: Marketing Campaign App
+    homepage: https://github.com/Ivyw1219/Marketing_Campaign_APP
+    image: https://github.com/Ivyw1219/Marketing_Campaign_APP/raw/master/app-preview.gif
+    github_id: Ivyw1219/Marketing_Campaign_APP
+    category: business
+    show: True
+  - name: StockAnalysisApp
+    homepage: https://essential-stock-analysis.herokuapp.com/
+    github_id: antonio-catalano/StockAnalysisApp
+    category: business
+    show: True
+  - name: Automated Time Series Forecasting
+    homepage: https://autoforecast-prophet.herokuapp.com/
+    image: https://github.com/zachrenwick/streamlit_forecasting_app/raw/master/images/screenshot2.jpg
+    github_id: zachrenwick/streamlit_forecasting_app
+    category: business
+    show: True
+  - name: Travelling Salesman
+    homepage: https://github.com/miclindahl/tsp-streamlit/
+    image: https://github.com/miclindahl/tsp-streamlit/raw/master/tsp_subtours.gif
+    github_id: miclindahl/tsp-streamlit
+    category: business
+    show: True
+  - name: Music Generation
+    homepage: https://neuralpiano.herokuapp.com/
+    github_id: Sohaib90/Music_Gen_Streamlit
+    category: audio
+    show: True
+  - name: Global cities explorer
+    homepage: https://github.com/asehmi/Data-Science-Meetup-Oxford/tree/master/GlobalCities
+    image: https://github.com/asehmi/Data-Science-Meetup-Oxford/raw/master/GCFS-streamlit.png
+    github_id: asehmi/Data-Science-Meetup-Oxford
+    category: business
+    show: True
+  - name: Liverpool Analyzer
+    homepage: https://liverpoolanalyzer.herokuapp.com/
+    github_id: saeeeeru/Last-Row
+    category: non-ml
+    show: True
+  - name: TechSEO Crawler
+    homepage: https://github.com/jroakes/tech-seo-crawler
+    image: https://raw.githubusercontent.com/jroakes/tech-seo-crawler/master/etc/images/screenshot.png
+    github_id: jroakes/tech-seo-crawler
+    category: business
+    show: True
   # - name:
   #   homepage:
+  #   image:
   #   github_id:
   #   category:
   #   show: True
   # - name:
   #   homepage:
+  #   image:
   #   github_id:
   #   category:
   #   show: True
   # - name:
   #   homepage:
+  #   image:
   #   github_id:
   #   category:
   #   show: True
