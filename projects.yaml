@@ -461,7 +461,7 @@ projects:
     github_id: antonio-catalano/StockAnalysisApp
     category: business
     show: True
-  - name: Automated Time Series Forecasting
+  - name: Time Series Forecasting
     homepage: https://autoforecast-prophet.herokuapp.com/
     image: https://github.com/zachrenwick/streamlit_forecasting_app/raw/master/images/screenshot2.jpg
     github_id: zachrenwick/streamlit_forecasting_app
