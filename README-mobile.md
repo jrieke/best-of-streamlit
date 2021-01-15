@@ -17,7 +17,7 @@
 
 This curated list contains 79 [streamlit](https://www.streamlit.io/) apps from 9 categories, ranked by Github stars (in total, the projects have 12K stars!). To add or update a project, please open an [issue](https://github.com/best-of-lists/best-of/issues/new/choose) or add it directly to [projects.yaml](projects.yaml) (instructions [at the end of this file](#Contributing)). Contributions are very welcome!
 
-> 🧙‍♂️ Create your own best-of list in just 3 minutes with [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+> 🧙‍♂️ Discover other [best-of lists](https://best-of.org).
 
 <br>
 
