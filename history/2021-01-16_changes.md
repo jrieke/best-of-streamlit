@@ -1,6 +1,1 @@
-## ➕ Added Projects
-
-_Projects that were recently added to this best-of list._
-
-- <b><a href="https://autoforecast-prophet.herokuapp.com/">Time Series Forecasting</a></b> (🥈7 ·  ⭐ 16 · ➕) - This MVP data web app uses the Streamlit framework and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-
+Nothing changed from last update.
