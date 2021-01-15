@@ -23,7 +23,7 @@ This curated list contains 79 [streamlit](https://www.streamlit.io/) apps from 9
 
 ---
 
-<h3 align="center"><a href="/">View desktop-optimized version</a></h3>
+<h3 align="center"><a href="https://github.com/jrieke/best-of-streamlit">View desktop-optimized version</a></h3>
 
 ---
 
