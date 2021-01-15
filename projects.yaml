@@ -13,11 +13,11 @@ configuration:
   generate_legend: False
   hide_license_risk: False
   sort_by: star_count
-  # skip_existing_screenshots: True
-  skip_screenshots: True
+  skip_existing_screenshots: True
+  # skip_screenshots: True
   wait_before_screenshot: 10
   projects_per_category: 9
-  projects_per_row: 1
+  projects_per_row: 3
 
 categories:
   - category: ml
@@ -38,7 +38,7 @@ categories:
     title: 🎈 Official Demos
 
 projects:
-  - name: traingenerator
+  - name: Traingenerator
     homepage: https://traingenerator.jrieke.com/
     image: https://github.com/jrieke/traingenerator/raw/main/docs/assets/demo.gif
     github_id: jrieke/traingenerator
@@ -371,9 +371,67 @@ projects:
     github_id: andfanilo/streamlit-lottie
     category: extension
     show: True
+  - name: EDA on Financial Dataset
+    homepage: https://github.com/bukosabino/streamlit-demo-financial-eda
+    github_id: bukosabino/streamlit-demo-financial-eda
+    category: non-ml
+    show: True
+  - name: Whatsapp Chat Analyzer
+    homepage: https://whatsapp-chat-analyzer.herokuapp.com/
+    image: https://github.com/pcsingh/WhatsApp-Chat-Analyzer/raw/master/assets/work.gif
+    github_id: pcsingh/WhatsApp-Chat-Analyzer
+    category: non-ml
+    show: True
+  - name: Rhyme with AI
+    homepage: https://github.com/godatadriven/rhyme-with-ai
+    image: https://github.com/godatadriven/rhyme-with-ai/raw/master/screenshot.gif
+    github_id: godatadriven/rhyme-with-ai
+    category: nlp
+    show: True
+  - name: Wildfire Detection
+    homepage: https://github.com/yueureka/WildFireDetection
+    image: https://github.com/yueureka/WildFireDetection/raw/master/Pictures/App2.png
+    github_id: yueureka/WildFireDetection
+    category: cv
+    show: True
+  - name: Goodreads App
+    homepage: https://share.streamlit.io/tylerjrichards/streamlit_goodreads_app/books.py
+    description: Analyzing Your Goodreads Reading Habits
+    github_id: tylerjrichards/streamlit_goodreads_app
+    category: non-ml
+    show: True
+  - name: HTML Table Scraper
+    homepage: https://github.com/CharlyWargnier/python-html-table-scraper
+    github_id: CharlyWargnier/python-html-table-scraper
+    category: non-ml
+    show: True
+  - name: Arup Social Data
+    homepage: https://share.streamlit.io/arup-group/eviction-data/run.py
+    github_id: arup-group/social-data
+    category: non-ml
+    show: True
+  - name: Resume App
+    homepage: http://54.147.143.114:8501/
+    github_id: alphadatagamma/Streamlit-Resume-App
+    category: non-ml
+    show: True
+  - name: Plant Disease Detection
+    homepage: https://bot-beats-ml-app.herokuapp.com/
+    github_id: AmeyaUpalanchi/streamlit-tensorflow-ml-app
+    category: cv
+    show: True
   # - name:
   #   homepage:
-  #   image:
+  #   github_id:
+  #   category:
+  #   show: True
+  # - name:
+  #   homepage:
+  #   github_id:
+  #   category:
+  #   show: True
+  # - name:
+  #   homepage:
   #   github_id:
   #   category:
   #   show: True
