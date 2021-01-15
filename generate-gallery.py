@@ -31,13 +31,12 @@ async def save_screenshot(
     """Loads url in headless browser and saves screenshot to file (.jpg or .png)."""
     browser = await pyppeteer.launch()
     page = await browser.newPage()
-    await page.goto(url, {"timeout": 60})  # increase timeout a bit for heroku apps
+    await page.goto(url, {"timeout": 6000})  # increase timeout to 60 s for heroku apps
     await page.emulate({"viewport": {"width": width, "height": height}})
     time.sleep(sleep)
     # Type (PNG or JPEG) will be inferred from file ending.
     await page.screenshot({"path": img_path})
     await browser.close()
-    # TODO: Add border or dropshadow or mockup of browser window around the screenshot.
 
 
 def generate_project_html(project: Dict, configuration: Dict, labels: Dict = None):
@@ -69,10 +68,12 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
                 try:
                     # TODO: Could make this in parallel, but not really required right
                     #   now.
+                    print(f"Taking screenshot for {project.name} (from {project.homepage})")
                     sleep = configuration.get("wait_before_screenshot", 10)
                     asyncio.run(
                         save_screenshot(project.homepage, img_path, sleep=sleep)
                     )
+                    print(f"Success! Saved in: {img_path}")
                 except pyppeteer.errors.TimeoutError:
                     print(f"Timeout when loading: {project.homepage}")
                     img_path = screenshot_dir / "0_default.png"
