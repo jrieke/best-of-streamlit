@@ -26,3 +26,5 @@ This curated list contains {project_count} [streamlit](https://www.streamlit.io/
 <h3 align="center"><a href="README-mobile.md">View mobile-optimized version</a></h3>
 
 ---
+
+<br>

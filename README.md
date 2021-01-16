@@ -33,8 +33,6 @@ This curated list contains 79 [streamlit](https://www.streamlit.io/) apps from 9
 
 <br>
 
-<br>
-
 ## 🤖 General Machine Learning
 
 <a href="#----best-of-streamlit----"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
