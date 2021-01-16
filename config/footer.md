@@ -2,12 +2,49 @@
 
 ## 📬 Contributing
 
-Built or discovered a new streamlit app? Adding it to this list is dead simple: You just 
-have to add a few lines of YAML code to [projects.yaml](projects.yaml) and then 
-re-generate the README.md file. Screenshots, Github stars, and ranking work completely 
-automatic. A detailed guide will follow soon, for now please have a look 
-[here](https://github.com/best-of-lists/best-of-generator#projects) 
-and at [projects.yaml](projects.yaml) itself. 
+Built or discovered a new streamlit app? I'd love to have it in this list! You can 
+either:
+
+- [Open an issue](https://github.com/jrieke/best-of-streamlit/issues/new/choose) with 
+a link to the app/repo
+- Add the app yourself by [editing projects.yaml directly online](https://github.com/jrieke/best-of-streamlit/edit/main/projects.yaml) 
+(no forking required). Just add the following information at the end of this file:
+
+    ```yaml
+    - name: App Name  # required; keep it short
+      homepage: link/to/deployment  # required; if not deployed, give repo link
+      image: link/to/gif/png/jpg  # optional; if not given, will take screenshot of homepage
+      github_id: owner/repo  # optional
+      category: one of the categories below  # required
+      show: True
+    ```
+
+    For `category`, choose one from below (e.g. `ml`) or leave empty if you are not 
+    sure:
+ 
+    ```yaml
+    - category: ml
+      title: 🤖 General Machine Learning
+    - category: nlp
+      title: 📚 Natural Language Processing
+    - category: cv
+      title: 👁️ Computer Vision
+    - category: audio
+      title: 🎵 Audio
+    - category: sci-tech
+      title: 🔬 Science & Technology
+    - category: business
+      title: 💰 Business & Economy
+    - category: non-ml
+      title: 🚀 Non-ML Apps
+    - category: extension
+      title: 🧰 Extensions & Components
+    - category: demo
+      title: 🎈 Official Demos
+    ```
+
+- If you want to suggest any other change, feel free to [open an issue](https://github.com/jrieke/best-of-streamlit/issues/new/choose) 
+as well :)
 
 <br>
 
