@@ -197,7 +197,7 @@ def generate_category_gallery_md(
 
 
 def generate_short_toc(categories: OrderedDict, config: Dict) -> str:
-    toc_md = "<br>\n\nJump to: "
+    toc_md = "<br>\n\n"
     toc_points = []
     for category in categories:
         category_info = Dict(categories[category])
@@ -220,7 +220,7 @@ def generate_short_toc(categories: OrderedDict, config: Dict) -> str:
             continue
 
         toc_points.append(f"[{category_info.title}]({url})")
-    toc_md += " &nbsp; ~ &nbsp; ".join(toc_points) + "\n\n<br>\n\n"
+    toc_md += " | ".join(toc_points) + "\n\n<br>\n\n"
     return toc_md
 
 

@@ -29,7 +29,7 @@ This curated list contains 79 [streamlit](https://www.streamlit.io/) apps from 9
 
 <br>
 
-Jump to: [🤖 General Machine Learning](#-general-machine-learning) &nbsp; ~ &nbsp; [📚 Natural Language Processing](#-natural-language-processing) &nbsp; ~ &nbsp; [👁️ Computer Vision](#-computer-vision) &nbsp; ~ &nbsp; [🎵 Audio](#-audio) &nbsp; ~ &nbsp; [🔬 Science & Technology](#-science--technology) &nbsp; ~ &nbsp; [💰 Business & Economy](#-business--economy) &nbsp; ~ &nbsp; [🚀 Non-ML Apps](#-non-ml-apps) &nbsp; ~ &nbsp; [🧰 Extensions & Components](#-extensions--components) &nbsp; ~ &nbsp; [🎈 Official Demos](#-official-demos)
+[🤖 General Machine Learning](#-general-machine-learning) | [📚 Natural Language Processing](#-natural-language-processing) | [👁️ Computer Vision](#-computer-vision) | [🎵 Audio](#-audio) | [🔬 Science & Technology](#-science--technology) | [💰 Business & Economy](#-business--economy) | [🚀 Non-ML Apps](#-non-ml-apps) | [🧰 Extensions & Components](#-extensions--components) | [🎈 Official Demos](#-official-demos)
 
 <br>
 
