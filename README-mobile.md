@@ -15,9 +15,7 @@
     <!-- <a href="https://github.com/best-of-lists/best-of/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/jrieke/best-of-streamlit?color=green&label=updated"></a> -->
 </p>
 
-This curated list contains 84 [streamlit](https://www.streamlit.io/) apps from 9 categories, ranked by Github stars (in total, the projects have 13K stars!). To add or update a project, please check the instructions [at the end of this file](#Contributing). Contributions are very welcome!
-
-> 🧙‍♂️ Discover other [best-of lists](https://best-of.org) or create [your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+This curated list contains 84 [streamlit](https://www.streamlit.io/) apps from 9 categories, ranked by Github stars (in total, the projects have 13K stars!). To add or update a project, please read the instructions [at the end of this file](#Contributing). You can also browse other [🏆 best-of lists](https://best-of.org) or create [your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
 <br>
 
