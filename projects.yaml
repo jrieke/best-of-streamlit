@@ -495,18 +495,36 @@ projects:
     github_id: jroakes/tech-seo-crawler
     category: business
     show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
-  #   show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
-  #   show: True
+  - name: MQTT Camera Streamer
+    homepage: https://github.com/robmarkcole/mqtt-camera-streamer
+    image: https://github.com/robmarkcole/mqtt-camera-streamer/raw/master/docs/images/viewer_usage.png
+    github_id: robmarkcole/mqtt-camera-streamer
+    category: cv
+    show: True
+  - name: Apache JMeter
+    homepage: https://github.com/QAInsights/Streamlit-JMeter
+    image: https://github.com/QAInsights/Streamlit-JMeter/raw/master/images/About.png
+    github_id: QAInsights/Streamlit-JMeter
+    category: non-ml
+    show: True
+  - name: Board Game Exploration
+    homepage: https://bgexploration.herokuapp.com/
+    image: https://github.com/MaartenGr/boardgame/raw/master/images/streamlit_gif_large.gif
+    github_id: MaartenGr/boardgame
+    category: non-ml
+    show: True
+  - name: Containerized App
+    homepage: https://github.com/collinprather/streamlit-docker
+    image: https://github.com/collinprather/streamlit-docker/raw/master/images/app.gif
+    github_id: collinprather/streamlit-docker
+    category: non-ml
+    show: True
+  - name: Text Insights
+    homepage: https://github.com/robmarkcole/text-insights-app
+    image: https://github.com/robmarkcole/text-insights-app/raw/master/assets/usage.jpg
+    github_id: robmarkcole/text-insights-app
+    category: cv
+    show: True
   # - name:
   #   homepage:
   #   image:
