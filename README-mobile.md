@@ -154,6 +154,9 @@ a link to the app/repo
       title: 🎈 Official Demos
     ```
 
+    *Note: The new app will not show up in the gallery directly. I first need to 
+    re-generate the README.md file from projects.yaml after your changes are merged.*
+
 - If you want to suggest any other change, feel free to [open an issue](https://github.com/jrieke/best-of-streamlit/issues/new/choose) 
 as well :)
 
