@@ -1,1 +1,81 @@
-Nothing changed from last update.
+## ➕ Added Projects
+
+_Projects that were recently added to this best-of list._
+
+- <b><a href="https://huggingface.co/datasets/viewer/">🤗 Datasets Viewer</a></b> (🥇25 ·  ⭐ 6.5K · ➕) - The largest hub of ready-to-use NLP datasets for ML models.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://facebookresearch.github.io/hiplot/tuto_streamlit.html">HiPlot</a></b> (🥇13 ·  ⭐ 1.9K · ➕) - HiPlot makes understanding high dimensional data easy. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/streamlit/demo-self-driving">Udacity Self-driving Car</a></b> (🥇13 ·  ⭐ 730 · ➕) - Streamlit app demonstrating an image browser for the.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py">spaCy</a></b> (🥈12 ·  ⭐ 320 · ➕) - spaCy building blocks and visualizers for Streamlit apps. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/abhimishra91/insight">Insight</a></b> (🥈10 ·  ⭐ 230 · ➕) - Repository for Project Insight: NLP as a Service. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
+- <b><a href="https://share.streamlit.io/streamlit/demo-face-gan/">Face-GAN Explorer</a></b> (🥈11 ·  ⭐ 160 · ➕) - A demonstration of using a live Tensorflow session to.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/">Uber Pickups in NYC</a></b> (🥈11 ·  ⭐ 120 · ➕) - A Streamlit demo to interactively visualize Uber pickups.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/CompVis/net2net">net2net</a></b> (🥈6 ·  ⭐ 99 · 🐣) - Network-to-Network Translation with Conditional Invertible.. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/davidefiocco/streamlit-fastapi-model-serving">FastAPI Model Serving</a></b> (🥉9 ·  ⭐ 78 · ➕) - Simple web app example using streamlit and FastAPI to.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py">Cheat Sheet</a></b> (🥇9 ·  ⭐ 75 · ➕) - A cheat sheet for streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py">Drawable Canvas</a></b> (🥇13 ·  ⭐ 65 · ➕) - Do you like Quick, Draw? Well what if you could.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/madewithml/e2e-ml-app-pytorch">E2E ML App w/ PyTorch</a></b> (🥉8 ·  ⭐ 62 · ➕) - An end-to-end ML applications using PyTorch, W&B, FastAPI,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/ideonate/cdsdashboards">ContainDS Dashboards</a></b> (🥉9 ·  ⭐ 60 · ➕) - JupyterHub extension for ContainDS Dashboards. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py">ECharts</a></b> (🥈12 ·  ⭐ 57 · ➕) - A Streamlit custom component to render ECharts in Streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/pento-group/streamlit-terran-timeline/">Terran Timeline</a></b> (🥉8 ·  ⭐ 51 · ➕) - Using Terran for creating video timelines. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/tvst/st-annotated-text">Annotated Text</a></b> (🥉7 ·  ⭐ 50 · ➕) - A simple component to display annotated text in Streamlit.. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/okld/streamlit-pandas-profiling">Pandas Profiling</a></b> (🥈11 ·  ⭐ 46 · ➕) - Pandas profiling component for Streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="http://chime-soundboard.herokuapp.com/">chime soundboard</a></b> (🥇8 ·  ⭐ 45 · 🐣) - Python sound notifications made easy. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/randyzwitch/streamlit-folium/examples/streamlit_app.py">Folium</a></b> (🥈12 ·  ⭐ 44 · ➕) - Streamlit Component for rendering Folium maps. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/jroakes/tech-seo-crawler">TechSEO Crawler</a></b> (🥇9 ·  ⭐ 37 · 💤) - Build a small, 3 domain internet using Github pages and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/i008/COCO-dataset-explorer">COCO Explorer</a></b> (🥉4 ·  ⭐ 35 · ➕) - Streamlit tool to explore coco datasets. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/okld/streamlit-ace/demo/">Ace</a></b> (🥇13 ·  ⭐ 34 · ➕) - Streamlit component featuring the Ace code editor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://farolcovid.coronacidades.org/">FarolCovid</a></b> (🥇11 ·  ⭐ 34 · ➕) - . Ferramenta de monitoramento do risco de colapso no sistema de.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://essential-stock-analysis.herokuapp.com/">StockAnalysisApp</a></b> (🥇9 ·  ⭐ 32 · 💤) - A stock analysis app with streamlit. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/cceyda/torchserve-dashboard">Torchserve Dashboard</a></b> (🥉6 ·  ⭐ 29 · ➕) - Management Dashboard for Torchserve. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/robmarkcole/object-detection-app">Object detection app</a></b> (🥇9 ·  ⭐ 27 · 💤) - Simple object detection app with streamlit. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/domoritz/streamlit-vega-lite">Vega-Lite</a></b> (🥉9 ·  ⭐ 25 · ➕) - A Streamlit component to render interactive Vega, Vega-Lite, and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://streamlit-observable.herokuapp.com/">Observable</a></b> (🥈10 ·  ⭐ 24 · ➕) - Embed Observable notebooks into Streamlit apps!. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/andfanilo/streamlit-d3-demo">D3 Demo</a></b> (🥉9 ·  ⭐ 23 · ➕) - D3 in React in Streamlit tech demo. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/ash2shukla/streamlit-bokeh-events">Bokeh Events</a></b> (🥈11 ·  ⭐ 22 · ➕) - A streamlit component for bi-directional communication with.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/ChrisChross/streamlit-agraph">Agraph</a></b> (🥉7 ·  ⭐ 22 · 🐣) - A Streamlit Graph Vis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/amalshaji/style-transfer">Style transfer web app</a></b> (🥈6 ·  ⭐ 22 · ➕) - style transfer web app [FastAPI + streamlit + Docker]. <code>❗️Unlicensed</code>
+- <b><a href="https://covid19.cwerner.ai/">Covid-19 Data Explorer</a></b> (🥈9 ·  ⭐ 20 · ➕) - Dashboard for the COVID19 spread. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/turner-anderson/streamlit-cropper">Cropper</a></b> (🥉6 ·  ⭐ 19 · ➕) - A simple image cropper for Streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/angelolovatto/raylab">Raylab</a></b> (🥇11 ·  ⭐ 18 · ➕) - Reinforcement learning algorithms in RLlib. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/as-ideas/headliner-demo">Headliner Demo</a></b> (🥉4 ·  ⭐ 18 · 💤) - Simple translation demo showcasing our headliner package. <code>❗️Unlicensed</code>
+- <b><a href="https://auto-vaidya.herokuapp.com/">Auto Vaidya</a></b> (🥈8 ·  ⭐ 17 · ➕) - An open-source project for applying deep learning to medical.. <code><a href="https://tldrlegal.com/search?q=CC0-1.0">❗️CC0-1.0</a></code>
+- <b><a href="https://github.com/dhaitz/matplotlib-style-configurator">Matplotlib Configurator</a></b> (🥈6 ·  ⭐ 17 · ➕) - Matplotlib style configurator, built with Streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/amineHY/WebApp-Computer-Vision-streamlit">Webapp Computer Vision</a></b> (🥉5 ·  ⭐ 17 · ➕) - Computer Vision application in the web. <code>❗️Unlicensed</code>
+- <b><a href="http://ezancestry.herokuapp.com/">Genetic Ancestry</a></b> (🥈8 ·  ⭐ 16 · ➕) - Visualize your genotype data with streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://autoforecast-prophet.herokuapp.com/">Time Series Forecasting</a></b> (🥈7 ·  ⭐ 16 · ➕) - This MVP data web app uses the Streamlit framework and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/e-tony/story_generator/main/app.py">Rick & Morty Generator</a></b> (🥈6 ·  ⭐ 16 · 🐣) - A Streamlit app that generates Rick and Morty stories.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/udaylunawat/Automatic-License-Plate-Recognition">Indian ALPR System</a></b> (🥇9 ·  ⭐ 15 · ➕) - Source code of ALPR (Automatic License Plate Recognition.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/smaranjitghose/img_ai_app_boilerplate">Image Classification App</a></b> (🥈8 ·  ⭐ 14 · ➕) - An image classification app boilerplate to serve your deep.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/randyzwitch/streamlit-embedcode/examples/streamlit_app.py">Embedcode</a></b> (🥇14 ·  ⭐ 13 · ➕) - Streamlit component for embedding code snippets such as GitHub.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://whatsapp-chat-analyzer.herokuapp.com/">Whatsapp Chat Analyzer</a></b> (🥈8 ·  ⭐ 13 · ➕) - WhatsApp Chat Analyzer is a WebApp and it can be used by.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/bukosabino/streamlit-demo-financial-eda">EDA on Financial Dataset</a></b> (🥈7 ·  ⭐ 13 · ➕) - Automated Exploration Data Analysis on a financial dataset. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/godatadriven/rhyme-with-ai">Rhyme with AI</a></b> (🥈6 ·  ⭐ 13 · ➕) - Rhyme with AI. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/yueureka/WildFireDetection">Wildfire Detection</a></b> (🥈8 ·  ⭐ 12 · ➕) - Using U-Net Model to Detect Wildfire from Satellite Imagery. <code><a href="https://tldrlegal.com/search?q=CC0-1.0">❗️CC0-1.0</a></code>
+- <b><a href="https://github.com/patidarparas13/Sentiment-Analyzer-Tool">Sentiment Analyzer</a></b> (🥈7 ·  ⭐ 12 · 💤) - It analyze the sentiment of the user, whether it is.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/heyad/covid19">Covid19-Scotland</a></b> (🥉5 ·  ⭐ 12 · ➕) - Load, explore and analyse data from Scotland and rest of.. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/Ivyw1219/Marketing_Campaign_APP">Marketing Campaign App</a></b> (🥉6 ·  ⭐ 11 · ➕) - A streamlit APP DEMO (python, plotly). <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/cjwallace/squote">Squote</a></b> (🥈6 ·  ⭐ 9 · ➕) - Semantic search for quotes. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/pablocfonseca/streamlit-aggrid/main/example.py">AgGrid</a></b> (🥉6 ·  ⭐ 9 · 🐣) - AgGrid is an awesome grid for web frontend. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/asehmi/Data-Science-Meetup-Oxford/tree/master/GlobalCities">Global cities explorer</a></b> (🥉6 ·  ⭐ 9 · ➕) - Content shared at DS-OX Meetup. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/napoles-uach/streamlit_3dmol">3dmol</a></b> (🥉7 ·  ⭐ 8 · ➕) - This project aims to provide an easy way to create a web app for.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/tylerjrichards/streamlit_goodreads_app/books.py">Goodreads App</a></b> (🥈6 ·  ⭐ 7 · ➕) - Analyzing Your Goodreads Reading Habits. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/virtualramblas/streamlit-face-mask-detector">Face Mask Detector</a></b> (🥈6 ·  ⭐ 7 · ➕) - A simple Streamlit frontend for a pre-trained MobileNet.. <code>❗️Unlicensed</code>
+- <b><a href="http://54.147.143.114:8501/">Resume App</a></b> (🥉5 ·  ⭐ 7 · ➕) - Interactive resume created on Streamlit and hosted on AWS.. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/andfanilo/streamlit-lottie-demo/master/app.py">Lottie</a></b> (🥉6 ·  ⭐ 6 · 🐣) - Streamlit component to render Lottie animations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/KimaruThagna/Picture-lytics">Picture-lytics</a></b> (🥉5 ·  ⭐ 6 · ➕) - Using Google's teachable machine to generate an image.. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/jkanner/streamlit-dataview/app.py">Gravitational Wave App</a></b> (🥉6 ·  ⭐ 5 · ➕) - Streamlit viewer for GW data. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/CharlyWargnier/python-html-table-scraper">HTML Table Scraper</a></b> (🥈6 ·  ⭐ 5 · ➕) - A simple HTML table scraper made with Python and the.. <code>❗️Unlicensed</code>
+- <b><a href="https://bot-beats-ml-app.herokuapp.com/">Plant Disease Detection</a></b> (🥈6 ·  ⭐ 4 · ➕) - Web App for Plant Disease Detection using Tensorflow and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/panditpranav/svm_covid_tracking/main/COVID_app.py">Covid Tracking</a></b> (🥉7 ·  ⭐ 3 · ➕) - COVID Tracking app for data in Northern California. <code>❗️Unlicensed</code>
+- <b><a href="https://github.com/streamlit/demo-deepdream">Deep Dream</a></b> (🥉6 ·  ⭐ 3 · 🐣) - A Streamlit demo demonstrating the Deep Dream technique... <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://neuralpiano.herokuapp.com/">Music Generation</a></b> (🥉4 ·  ⭐ 3 · ➕) - Music Generation using Neural Networks Streamlit App. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/arup-group/eviction-data/run.py">Arup Social Data</a></b> (🥈6 ·  ⭐ 2 · ➕) - Code and data for eviction and housing analysis in the US. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://share.streamlit.io/okld/streamlit-player-demo/main/app.py">Player</a></b> (🥉5 ·  ⭐ 2 · 🐣) - A streamlit component to embed video and music players from various.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/dkajtoch/glove_streamlit">GloVe Explorer</a></b> (🥉2 ·  ⭐ 2 · 💤) - Demonstration project of using Streamlit with word.. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/okld/streamlit-disqus-demo/main/app.py">Disqus</a></b> (🥉6 ·  ⭐ 1 · 🐣) - A streamlit component to embed Disqus in your applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/miclindahl/tsp-streamlit/">Travelling Salesman</a></b> (🥉4 ·  ⭐ 1 · ➕) - Animation of solving the traveling salesman problem to.. <code>❗️Unlicensed</code>
+- <b><a href="https://share.streamlit.io/okld/streamlit-discourse-demo/main/app.py">Discourse</a></b> (🥉5 · 🐣) - A streamlit component to embed Discourse topics in your applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://liverpoolanalyzer.herokuapp.com/">Liverpool Analyzer</a></b> (🥉4 · ➕) - Last row tracking data and code. <code>❗️Unlicensed</code>
+- <b><a href="https://covid19.multivacplatform.org/">Interactive COVID-19</a></b> (🥉1 · ➕) - Analyze the cumulative data of confirmed, deaths, and.. <code>❗️Unlicensed</code>
+- <b><a href="https://huggingface.co/zero-shot/">Zero Shot Topic Classification</a></b> (🥉1 · ➕) - This demo shows how Transformers can be used for zero-shot.. <code>❗️Unlicensed</code>
+

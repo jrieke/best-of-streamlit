@@ -3,6 +3,7 @@ import asyncio
 from datetime import datetime
 import re
 from pathlib import Path
+from collections import OrderedDict
 
 from addict import Dict
 import pyppeteer
@@ -68,7 +69,9 @@ def generate_project_html(project: Dict, configuration: Dict, labels: Dict = Non
                 try:
                     # TODO: Could make this in parallel, but not really required right
                     #   now.
-                    print(f"Taking screenshot for {project.name} (from {project.homepage})")
+                    print(
+                        f"Taking screenshot for {project.name} (from {project.homepage})"
+                    )
                     sleep = configuration.get("wait_before_screenshot", 10)
                     asyncio.run(
                         save_screenshot(project.homepage, img_path, sleep=sleep)
@@ -193,6 +196,34 @@ def generate_category_gallery_md(
     return "<br>\n\n" + category_md
 
 
+def generate_short_toc(categories: OrderedDict, config: Dict) -> str:
+    toc_md = "<br>\n\nJump to: "
+    toc_points = []
+    for category in categories:
+        category_info = Dict(categories[category])
+        if category_info.ignore:
+            continue
+
+        url = "#" + best_of.md_generation.process_md_link(category_info.title)
+
+        project_count = 0
+        if category_info.projects:
+            project_count += len(category_info.projects)
+        if category_info.hidden_projects:
+            project_count += len(category_info.hidden_projects)
+
+        if not project_count and (
+            config.hide_empty_categories
+            or category == best_of.default_config.DEFAULT_OTHERS_CATEGORY_ID
+        ):
+            # only add if more than 0 projects
+            continue
+
+        toc_points.append(f"[{category_info.title}]({url})")
+    toc_md += " &nbsp; ~ &nbsp; ".join(toc_points) + "\n\n<br>\n\n"
+    return toc_md
+
+
 def main(
     projects_file: str = typer.Argument(..., help="Path to the projects.yaml file"),
     github_api_key: str = typer.Option(
@@ -204,6 +235,7 @@ def main(
     """
     # Monkey-path best_of with my custom generation functions.
     best_of.md_generation.generate_category_md = generate_category_gallery_md
+    best_of.md_generation.generate_toc = generate_short_toc
     # TODO: Add all original cmd line params here.
     best_of.generator.generate_markdown(projects_file, github_api_key=github_api_key)
 

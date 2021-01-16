@@ -9,7 +9,7 @@ configuration:
   require_license: False
   require_github: False
   generate_install_hints: False
-  generate_toc: False
+  generate_toc: True
   generate_legend: False
   hide_license_risk: False
   sort_by: star_count
