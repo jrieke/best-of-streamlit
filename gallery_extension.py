@@ -1,15 +1,35 @@
+"""
+Extension script for best-of that creates a gallery instead of a list.
+
+Usage: In `projects.yaml`, set
+
+    configuration:
+      # any other config params
+      extension_script: gallery_extension.py
+      # all below are optional
+      skip_existing_screenshots: False
+      skip_screenshots: False
+      wait_before_screenshot: 10
+      projects_per_category: 9
+      projects_per_row: 3
+      mobile_version: True
+      mobile_markdown_header_file: "config/header-mobile.md"
+      mobile_markdown_footer_file: "config/footer-mobile.md"
+"""
+
 import time
 import asyncio
 from datetime import datetime
 import re
 from pathlib import Path
 from collections import OrderedDict
+from typing import List
 
 from addict import Dict
 import pyppeteer
-import typer
-import best_of.generator
-import best_of.md_generation
+
+import best_of
+from best_of.generators import markdown_list
 import best_of.utils
 
 
@@ -141,7 +161,7 @@ def generate_category_gallery_md(
     category: Dict, config: Dict, labels: list, title_md_prefix: str = "##"
 ) -> str:
     """Generates the gallery with all projects for a category."""
-
+    # print("hello category")
     category_md = ""
 
     if (
@@ -187,16 +207,17 @@ def generate_category_gallery_md(
             + " hidden projects...</summary>\n\n"
         )
         for project in category.hidden_projects:
-            project_md = best_of.md_generation.generate_project_md(
+            project_md = markdown_list.generate_project_md(
                 project, config, labels, generate_body=False
             )
             category_md += project_md + "\n"
         category_md += "</details>\n"
-
+    # print(category_md)
     return "<br>\n\n" + category_md
 
 
 def generate_short_toc(categories: OrderedDict, config: Dict) -> str:
+    # print("hello toc")
     toc_md = ""
     toc_points = []
     for category in categories:
@@ -204,7 +225,7 @@ def generate_short_toc(categories: OrderedDict, config: Dict) -> str:
         if category_info.ignore:
             continue
 
-        url = "#" + best_of.md_generation.process_md_link(category_info.title)
+        url = "#" + markdown_list.process_md_link(category_info.title)
 
         project_count = 0
         if category_info.projects:
@@ -224,22 +245,30 @@ def generate_short_toc(categories: OrderedDict, config: Dict) -> str:
     return toc_md
 
 
-def main(
-    projects_file: str = typer.Argument(..., help="Path to the projects.yaml file"),
-    github_api_key: str = typer.Option(
-        "", "--github_api_key", "-g", help="API key for Github"
-    ),
-):
-    """
-    Generate README.md from a projects file (YAML).
-    """
-    # Monkey-path best_of with my custom generation functions.
-    best_of.md_generation.generate_category_md = generate_category_gallery_md
-    best_of.md_generation.generate_toc = generate_short_toc
-    # TODO: Add all original cmd line params here.
-    best_of.generator.generate_markdown(projects_file, github_api_key=github_api_key)
+# Store the original function here, so we can use it multiple times.
+orig_write_output = markdown_list.MarkdownListGenerator.write_output
 
 
-if __name__ == "__main__":
-    typer.run(main)
+def write_output(
+    self, categories: OrderedDict, projects: List[Dict], config: Dict, labels: list
+) -> None:
+    orig_write_output(self, categories, projects, config, labels)
+
+    # Create mobile version with 1 column.
+    if config.mobile_version:
+        mobile_config = Dict(config)
+        mobile_config.output_file = "README-mobile.md"
+        mobile_config.projects_per_row = 1
+        if "mobile_markdown_header_file" in config:
+            mobile_config.markdown_header_file = config.mobile_markdown_header_file
+        if "mobile_markdown_footer_file" in config:
+            mobile_config.markdown_footer_file = config.mobile_markdown_footer_file
+        orig_write_output(self, categories, projects, mobile_config, labels)
+
+
+print("Loading gallery extension...")
+markdown_list.generate_category_md = generate_category_gallery_md
+markdown_list.generate_toc = generate_short_toc
+markdown_list.MarkdownListGenerator.write_output = write_output
+print("If there is no error above, the gallery extension was successfully loaded.")
 

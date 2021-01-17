@@ -13,11 +13,15 @@ configuration:
   generate_legend: False
   hide_license_risk: False
   sort_by: star_count
+
+  extension_script: gallery_extension.py
   skip_existing_screenshots: True
   # skip_screenshots: True
   wait_before_screenshot: 10
   projects_per_category: 9
   projects_per_row: 3
+  mobile_version: True
+  mobile_markdown_header_file: "config/header-mobile.md"
 
 categories:
   - category: ml
