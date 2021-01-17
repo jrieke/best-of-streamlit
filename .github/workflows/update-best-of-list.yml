@@ -48,7 +48,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.5.3
+        uses: best-of-lists/best-of-update-action@v0.6.1
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
