@@ -14,7 +14,7 @@ Usage: In `projects.yaml`, set
       projects_per_row: 3
       mobile_version: True
       mobile_markdown_header_file: "config/header-mobile.md"
-      mobile_markdown_footer_file: "config/footer-mobile.md"
+      mobile_markdown_footer_file: "config/footer-mobile.mdsa
 """
 
 import time
