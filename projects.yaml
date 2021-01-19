@@ -531,6 +531,12 @@ projects:
     github_id: robmarkcole/text-insights-app
     category: cv
     show: True
+  - name: Monte Carlo for Pi
+    homepage: https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py
+    description: Using Monte Carlo to Estimate Pi
+    github_id: mesmith027/streamlit_webapps
+    category: sci-tech
+    show: True
   # - name:
   #   homepage:
   #   image:
