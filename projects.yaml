@@ -537,6 +537,12 @@ projects:
     github_id: mesmith027/streamlit_webapps
     category: sci-tech
     show: True
+  - name: WebRTC
+    homepage: https://streamlit-webrtc-example.herokuapp.com/
+    image: https://aws1.discourse-cdn.com/business7/uploads/streamlit/original/2X/a/af111a7393c77cb69d7712ac8e71ca862feaeb24.gif
+    github_id: whitphx/streamlit-webrtc
+    category: extension
+    show: True
   # - name:
   #   homepage:
   #   image:
