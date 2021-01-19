@@ -543,6 +543,12 @@ projects:
     github_id: whitphx/streamlit-webrtc
     category: extension
     show: True
+  - name: Brain Tumor Detector
+    homepage: https://share.streamlit.io/manik456/brain_tumor_classifier/main/new_brain.py
+    image: https://aws1.discourse-cdn.com/business7/uploads/streamlit/optimized/2X/7/7403a602674d9dcfdb0cfc21b9a3f95e7e31c410_2_1380x776.png
+    github_id: manik456/brain_tumor_classifier
+    category: sci-tech
+    show: True
   # - name:
   #   homepage:
   #   image:
