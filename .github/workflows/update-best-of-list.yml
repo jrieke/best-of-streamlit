@@ -1,4 +1,4 @@
-# Based on https://github.com/best-of-lists/best-of-update-action/blob/v0.5.3/workflows/update-best-of-list.yml
+# Based on https://github.com/best-of-lists/best-of-update-action/blob/v0.7.0/workflows/update-best-of-list.yml
 name: update-best-of-list
 
 on:
@@ -7,8 +7,8 @@ on:
       version:
         description: "Version to use for this update"
         required: false
-  # schedule:
-  #   - cron: "0 18 * * 4" # Every thursday at 6pm
+  schedule:
+    - cron: "0 18 * * 4" # Every thursday at 6pm
 
 env:
   BRANCH_PREFIX: "update/"
@@ -43,12 +43,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Install dependencies for Gallery extension  # added this manually
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.6.1
+        uses: best-of-lists/best-of-update-action@v0.7.0
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
@@ -82,3 +78,4 @@ jobs:
           body_path: "latest-changes.md"
           draft: true
           prerelease: false
+          
