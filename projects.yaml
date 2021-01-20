@@ -549,6 +549,12 @@ projects:
     github_id: manik456/brain_tumor_classifier
     category: sci-tech
     show: True
+  - name: Alph, The Sacred River
+    homepage: https://share.streamlit.io/thoppe/alph-the-sacred-river/main
+    description: Combines poems and text using CLIP from OpenAI
+    github_id: thoppe/alph-the-sacred-river
+    category: cv
+    show: True
   # - name:
   #   homepage:
   #   image:
