@@ -43,6 +43,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install headless chromium for pyppeteer
+        uses: ianwalter/puppeteer-container@v4.0.0
+        with:
+          args: pnpm i
       - name: update-best-of-list
         uses: best-of-lists/best-of-update-action@v0.7.0
         with:
