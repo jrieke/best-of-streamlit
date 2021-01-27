@@ -48,7 +48,7 @@ jobs:
         with:
           args: pnpm i
       - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.7.0
+        uses: best-of-lists/best-of-update-action@60d1e8d47a0cdf15404d8379308ee11df7023d2b
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
