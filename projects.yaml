@@ -303,7 +303,7 @@ projects:
   - name: Terran Timeline
     homepage: https://github.com/pento-group/streamlit-terran-timeline/
     image: https://raw.githubusercontent.com/pento-group/streamlit-terran-timeline/master/resources/animation.gif
-    github_id: pento-group/streamlit-terran-timeline/
+    github_id: pento-group/streamlit-terran-timeline
     category: extension
     show: True
   - name: Disqus
