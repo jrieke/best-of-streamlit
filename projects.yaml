@@ -568,6 +568,12 @@ projects:
     github_id: apugoneappu/ask_me_anything
     category: cv
     show: True
+  - name: Help Me Read
+    homepage: https://github.com/Anku5hk/Help-Me-Read/tree/master/Streamlit-Version
+    image: https://github.com/Anku5hk/Help-Me-Read/raw/master/Streamlit-Version/screens/summarize.png
+    github_id: Anku5hk/Help-Me-Read
+    category: nlp
+    show: True
   # - name:
   #   homepage:
   #   image:
