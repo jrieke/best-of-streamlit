@@ -556,6 +556,18 @@ projects:
     github_id: thoppe/alph-the-sacred-river
     category: cv
     show: True
+  - name: Finance Chart
+    homepage: https://streamlit-finance-chart.herokuapp.com/
+    image: https://raw.githubusercontent.com/paduel/streamlit_finance_chart/master/sample.gif
+    github_id: paduel/streamlit_finance_chart
+    category: business
+    show: True
+  - name: Ask Me Anything
+    homepage: https://share.streamlit.io/apugoneappu/ask_me_anything/main.py
+    image: https://github.com/apugoneappu/ask_me_anything/raw/master/assets/landing.png
+    github_id: apugoneappu/ask_me_anything
+    category: cv
+    show: True
   # - name:
   #   homepage:
   #   image:
