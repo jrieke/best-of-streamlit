@@ -571,7 +571,7 @@ projects:
   - name: Help Me Read
     homepage: https://github.com/Anku5hk/Help-Me-Read/tree/master/Streamlit-Version
     image: https://github.com/Anku5hk/Help-Me-Read/raw/master/Streamlit-Version/screens/summarize.png
-    description: Awesome app created with Streamlit + HuggingFace🤗 to get summary, question-answer, translate to language from given input text. It uses T5 (Text-To-Text Transfer Transformer) for summaries/translation and 'Question Generation using transformers' for question answer generation.
+    description: Awesome app created with Streamlit + HuggingFace to get summary, question-answer, translate to language from given input text. 
     github_id: Anku5hk/Help-Me-Read
     category: nlp
     show: True
