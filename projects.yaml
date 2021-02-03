@@ -575,7 +575,14 @@ projects:
     github_id: Anku5hk/Help-Me-Read
     category: nlp
     show: True
-  # - name:
+  - name: COVID-19 in Italy
+    homepage: https://covid19-portal.herokuapp.com/
+    image: https://github.com/francesconazzaro/covid19-portal/raw/master/resources/covid19-hires.gif
+    description: Analyse data for COVID-19 vaccines administrations and COVID-19 infections in Italy
+    github_id: francesconazzaro/covid19-portal
+    category: sci-tech
+    show: True
+# - name:
   #   homepage:
   #   image:
   #   github_id:
