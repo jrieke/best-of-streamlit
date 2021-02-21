@@ -582,6 +582,12 @@ projects:
     github_id: francesconazzaro/covid19-portal
     category: sci-tech
     show: True
+  - name: Auth0 Authentication Component in Next.js
+    homepage: https://github.com/asehmi/Data-Science-Meetup-Oxford/tree/master/StreamlitComponent
+    image: https://github.com/asehmi/Data-Science-Meetup-Oxford/blob/master/StreamlitComponent/doc_images/streamlitcomponent_demo.gif
+    github_id: asehmi/Data-Science-Meetup-Oxford
+    category: extension
+    show: True
 # - name:
   #   homepage:
   #   image:
