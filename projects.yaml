@@ -594,12 +594,13 @@ projects:
     github_id: graphistry/graph-app-kit
     category: ml
     show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
-  #   show: True
+  - name: Galaxy Zoo
+    homepage: https://share.streamlit.io/mwalmsley/galaxy-poster/gz_decals_mike_walmsley.py
+    image: https://pbs.twimg.com/media/EugE4y_XMAMls1_?format=jpg&name=4096x4096
+    description: Search galaxies by morphology
+    github_id: mwalmsley/galaxy-poster
+    category: sci-tech
+    show: True
   # - name:
   #   homepage:
   #   image:
