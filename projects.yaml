@@ -607,17 +607,11 @@ projects:
     category: cv
     show: True
   - name: Timeline
-    homepage: https://github.com/innerdoc/streamlit-timeline
+    homepage: https://www.innerdoc.com/nlp-timeline-demo/
     image: https://github.com/innerdoc/streamlit-timeline/raw/main/example.png
     github_id: innerdoc/streamlit-timeline
     category: extension
     show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
-  #   show: True
   # - name:
   #   homepage:
   #   image:
