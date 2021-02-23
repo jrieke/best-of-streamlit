@@ -601,12 +601,11 @@ projects:
     github_id: mwalmsley/galaxy-poster
     category: sci-tech
     show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
-  #   show: True
+  - name: Taming Transformers
+    homepage: https://github.com/CompVis/taming-transformers
+    github_id: CompVis/taming-transformers
+    category: cv
+    show: True
   # - name:
   #   homepage:
   #   image:
