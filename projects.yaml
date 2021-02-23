@@ -588,7 +588,37 @@ projects:
     github_id: asehmi/Data-Science-Meetup-Oxford
     category: extension
     show: True
-# - name:
+  - name: Graph App Kit
+    homepage: https://github.com/graphistry/graph-app-kit
+    image: https://user-images.githubusercontent.com/4249447/92298596-8e518600-eeff-11ea-8276-069281a4af93.png
+    github_id: graphistry/graph-app-kit
+    category: ml
+    show: True
+  # - name:
+  #   homepage:
+  #   image:
+  #   github_id:
+  #   category:
+  #   show: True
+  # - name:
+  #   homepage:
+  #   image:
+  #   github_id:
+  #   category:
+  #   show: True
+  # - name:
+  #   homepage:
+  #   image:
+  #   github_id:
+  #   category:
+  #   show: True
+  # - name:
+  #   homepage:
+  #   image:
+  #   github_id:
+  #   category:
+  #   show: True
+  # - name:
   #   homepage:
   #   image:
   #   github_id:
