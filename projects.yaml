@@ -123,7 +123,7 @@ projects:
     show: True
   - name: Drawable Canvas
     homepage: https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py
-    image: https://github.com/andfanilo/streamlit-drawable-canvas/raw/master/img/demo.gif
+    image: https://github.com/andfanilo/streamlit-drawable-canvas/raw/develop/img/demo.gif
     github_id: andfanilo/streamlit-drawable-canvas
     category: extension
     show: True
@@ -173,7 +173,7 @@ projects:
     show: True
   - name: ECharts
     homepage: https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py
-    image: https://github.com/andfanilo/streamlit-echarts/raw/master/img/demo.gif
+    image: https://github.com/andfanilo/streamlit-echarts/raw/develop/img/demo.gif
     github_id: andfanilo/streamlit-echarts
     category: extension
     show: True
@@ -603,6 +603,7 @@ projects:
     show: True
   - name: Taming Transformers
     homepage: https://github.com/CompVis/taming-transformers
+    description: Taming Transformers for High-Resolution Image Synthesis, CVPR 2021 (Oral)
     github_id: CompVis/taming-transformers
     category: cv
     show: True
@@ -644,6 +645,7 @@ projects:
     show: True
   - name: MiniClip
     homepage: https://ganpaint.io/miniclip/
+    description: A quick demo to explore text descriptions and saliency maps for Clip models
     image: https://raw.githubusercontent.com/HendrikStrobelt/miniClip/main/assets/miniclip_teaser.jpg?token=AAHIFTT5T6SXWBJMICS2OM3AJ44CA
     github_id: HendrikStrobelt/miniClip
     category: cv
