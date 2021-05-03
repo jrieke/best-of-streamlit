@@ -618,9 +618,45 @@ projects:
     github_id: alvarobartt/tensorflow-serving-streamlit
     category: ml
     show: True
-  # - name:
-  #   homepage:
-  #   image:
-  #   github_id:
-  #   category:
-  #   show: True
+  - name: Web VR Code Generator
+    homepage: https://share.streamlit.io/jojo96/webvrcodegenerator/main/ar.py
+    image: https://github.com/jojo96/WebVRCodeGenerator/raw/main/Images/LiveAppGIF.gif
+    github_id: jojo96/webvrcodegenerator
+    category: cv
+    show: True
+  - name: Material Segmentation
+    homepage: https://github.com/virtualramblas/streamlit-materials-segmentation-in-vessels
+    image: https://github.com/virtualramblas/streamlit-materials-segmentation-in-vessels/raw/main/demo-image.PNG
+    github_id: virtualramblas/streamlit-materials-segmentation-in-vessels
+    category: cv
+    show: True
+  - name: Project Code
+    homepage: https://share.streamlit.io/gagan3012/project-code-py/app.py
+    image: https://user-images.githubusercontent.com/49101362/110356042-e69e4780-804a-11eb-94c6-a47fa3cd66b3.png
+    github_id: gagan3012/project-code-py
+    category: non-ml
+    show: True
+  - name: Whatsapp Chat Analyzer
+    homepage: https://share.streamlit.io/gift-ojeabulu/whatsapchat-analyzer-app/app.py
+    image: https://github.com/judeleonard/WhatsapChat-Analyzer-App/raw/master/Demo/ezgif.com-video-to-gif.gif
+    github_id: judeleonard/WhatsapChat-Analyzer-App
+    category: non-ml
+    show: True
+  - name: MiniClip
+    homepage: https://ganpaint.io/miniclip/
+    image: https://raw.githubusercontent.com/HendrikStrobelt/miniClip/main/assets/miniclip_teaser.jpg?token=AAHIFTT5T6SXWBJMICS2OM3AJ44CA
+    github_id: HendrikStrobelt/miniClip
+    category: cv
+    show: True
+  - name: CLIP Playground
+    homepage: https://www.clipplayground.co/
+    github_id: JaviFuentes94/clip-playground
+    category: cv
+    show: True
+  - name: Intent Example Finder
+    homepage: https://share.streamlit.io/rasahq/nlu-training-data/main
+    image: https://github.com/RasaHQ/NLU-training-data/raw/main/dashboard.png
+    github_id: RasaHQ/NLU-training-data
+    category: nlp
+    show: True
+
