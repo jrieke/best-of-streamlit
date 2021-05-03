@@ -612,6 +612,12 @@ projects:
     github_id: innerdoc/streamlit-timeline
     category: extension
     show: True
+  - name: TensorFlow Serving + Streamlit
+    homepage: https://github.com/alvarobartt/tensorflow-serving-streamlit
+    image: https://raw.githubusercontent.com/alvarobartt/tensorflow-serving-streamlit/master/ui-demo.gif
+    github_id: alvarobartt/tensorflow-serving-streamlit
+    category: ml
+    show: True
   # - name:
   #   homepage:
   #   image:
