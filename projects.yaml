@@ -661,4 +661,9 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
-
+  - name: Pakistan COVID 19 Dashboard
+    homepage: https://share.streamlit.io/mesumraza/mesumrazahemani.github.io/main/PAKISTAN_COVID19_STREAMLIT.py
+    image: https://github.com/MesumRaza/MesumRazaHemani.github.io/blob/main/screencapture-share-streamlit-io-mesumraza-mesumrazahemani-github-io-main-PAKISTAN-COVID19-STREAMLIT-py-2021-05-02-00_03_26.png
+    github_id: https://github.com/MesumRaza/MesumRazaHemani.github.io
+    category: sci-tech
+    show: True
