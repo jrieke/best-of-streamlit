@@ -2,36 +2,6 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py">spaCy</a></b> (🥇15 ·  ⭐ 380 · 📈) - spaCy building blocks and visualizers for Streamlit apps. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/i008/COCO-dataset-explorer">COCO Explorer</a></b> (🥈8 ·  ⭐ 50 · 📈) - Streamlit tool to explore coco datasets. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/ChrisChross/streamlit-agraph">Agraph</a></b> (🥈12 ·  ⭐ 36 · 📈) - A Streamlit Graph Vis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/jrieke/streamlit-analytics">Analytics</a></b> (🥉9 ·  ⭐ 21 · 📈) - Track & visualize user interactions with your streamlit app. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/andfanilo/streamlit-lottie-demo/master/app.py">Lottie</a></b> (🥉10 ·  ⭐ 15 · 📈) - Streamlit component to render Lottie animations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-
-## 📉 Trending Down
-
-_Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
-
-- <b><a href="http://gh2020.jrieke.com/">Year on Github</a></b> (🥉6 ·  ⭐ 110 · 📉) - Share your Github stats for 2020 on Twitter. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py">Cheat Sheet</a></b> (🥇9 ·  ⭐ 100 · 📉) - A cheat sheet for streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py">Drawable Canvas</a></b> (🥈12 ·  ⭐ 90 · 📉) - Do you like Quick, Draw? Well what if you could.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py">ECharts</a></b> (🥈11 ·  ⭐ 88 · 📉) - A custom component to render ECharts in Streamlit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/amalshaji/style-transfer">Style transfer web app</a></b> (🥉6 ·  ⭐ 39 · 📉) - style transfer web app [FastAPI + streamlit + Docker]. <code>❗Unlicensed</code>
-
-## ➕ Added Projects
-
-_Projects that were recently added to this best-of list._
-
-- <b><a href="https://github.com/CompVis/taming-transformers">Taming Transformers</a></b> (🥈11 ·  ⭐ 1.3K · ➕) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/rasahq/nlu-training-data/main">Intent Example Finder</a></b> (🥇11 ·  ⭐ 120 · ➕) - Crowd sourced training data for Rasa NLU models. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/graphistry/graph-app-kit">Graph App Kit</a></b> (🥈11 ·  ⭐ 33 · ➕) - Go from graph data to a secure and interactive visual graph.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://share.streamlit.io/gagan3012/project-code-py/app.py">Project Code</a></b> (🥇9 ·  ⭐ 33 · 🐣) - Leetcode using AI. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/asehmi/Data-Science-Meetup-Oxford/tree/master/StreamlitComponent">Auth0 with Next.js</a></b> (🥉8 ·  ⭐ 28 · ➕) - Content shared at DS-OX Meetup. <code>❗Unlicensed</code>
-- <b><a href="https://ganpaint.io/miniclip/">MiniClip</a></b> (🥉2 ·  ⭐ 10 · 🐣) -  <code>❗Unlicensed</code>
-- <b><a href="https://www.innerdoc.com/nlp-timeline-demo/">Timeline</a></b> (🥉4 ·  ⭐ 8 · 🐣) - A simple Streamlit Component to display a Timeline in Streamlit apps. It.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/alvarobartt/tensorflow-serving-streamlit">TensorFlow Serving + Streamlit</a></b> (🥉5 ·  ⭐ 5 · 🐣) - TensorFlow Serving + Streamlit!. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/jojo96/webvrcodegenerator/main/ar.py">Web VR Code Generator</a></b> (🥉6 ·  ⭐ 4 · 🐣) - A simple app that generates WebVR code for scenes made.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://www.clipplayground.co/">CLIP Playground</a></b> (🥉4 ·  ⭐ 2 · 🐣) - A playground to try out OpenAI's CLIP model. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://share.streamlit.io/mwalmsley/galaxy-poster/gz_decals_mike_walmsley.py">Galaxy Zoo</a></b> (🥉2 ·  ⭐ 2 · ➕) - Search galaxies by morphology. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/virtualramblas/streamlit-materials-segmentation-in-vessels">Material Segmentation</a></b> (🥉3 · 🐣) - Streamlit app for detecting, segmenting and.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/CompVis/taming-transformers">Taming Transformers</a></b> (🥇12 ·  ⭐ 1.3K · 📈) - Taming Transformers for High-Resolution Image.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://ganpaint.io/miniclip/">MiniClip</a></b> (🥉3 ·  ⭐ 10 · 🐣) - A quick demo to explore text descriptions and saliency maps.. <code>❗Unlicensed</code>
 
