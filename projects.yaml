@@ -661,4 +661,11 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
+    
+  - name: Data Visualization Web App
+    homepage: https://explore-palmer-penguins.herokuapp.com
+    image: https://github.com/maladeep/palmerpenguins-streamlit-eda/blob/master/images/Palmer%20Penguins.png
+    github_id: maladeep/palmerpenguins-streamlit-eda
+    category: sci-tech
+    show: True
 
