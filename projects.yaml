@@ -661,4 +661,16 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
+  - name: QR Code Generator
+    homepage: https://qrcode-generator.onrender.com/
+    image: https://user-images.githubusercontent.com/29462447/205723396-4809e3ce-4a00-4f97-a708-ce75ed5fdfd5.png
+    github_id: prateekralhan/qrcode-generator-streamlit
+    category: non-ml
+    show: True
+   - name: Realtime Weather Statistics
+    homepage: https://bangalore-weather-stats.onrender.com/
+    image: https://user-images.githubusercontent.com/29462447/205502823-9f4c9d3b-f6b8-41ce-8ace-b7848d651241.png
+    github_id: prateekralhan/weather-stats-streamlit
+    category: non-ml
+    show: True
 
