@@ -661,4 +661,36 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
-
+  - name: Streamlit Supabase Connection
+    homepage: https://st-supabase-connection.streamlit.app/
+    image: https://private-user-images.githubusercontent.com/41324509/287445494-2870b021-48a0-4143-9693-c840880a28be.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYxMzA0NjksIm5iZiI6MTcwNjEzMDE2OSwicGF0aCI6Ii80MTMyNDUwOS8yODc0NDU0OTQtMjg3MGIwMjEtNDhhMC00MTQzLTk2OTMtYzg0MDg4MGEyOGJlLmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQyMTAyNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01OGFlNDFmNmZjMTJiMDRmZjVhOWIxMTBhOGJlOGE0ZWVmYzkyOWVhZGI4NmI3Y2MxNzNhZjhlYzgzY2IyYWYxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UShms4SRLNfo6rbDaTX49TfoKYICwFssegDYyAnAKq0
+    github_id: SiddhantSadangi/st_supabase_connection
+    category: extension
+    show: True
+  - name: Streamlit Login Form
+    homepage: https://st-lgn-form.streamlit.app/
+    image: https://github.com/SiddhantSadangi/st_login_form/blob/main/assets/screenshot.png
+    github_id: SiddhantSadangi/st_login_form
+    category: extension
+    show: True
+  - name: ImageWorkdesk
+    homepage: https://share.streamlit.io/siddhantsadangi/imageworkdesk/app.py
+    github_id: SiddhantSadangi/ImageWorkdesk
+    category: non-ml
+    show: True
+  - name: Wordle Solver
+    homepage: https://share.streamlit.io/siddhantsadangi/WordleSolver/app.py
+    github_id: SiddhantSadangi/WordleSolver
+    category: non-ml
+    show: True
+  - name: Deepgram Playground
+    homepage: https://deepgram-playground.streamlit.app/
+    github_id: SiddhantSadangi/st_deepgram_playground
+    category: audio
+    show: True
+  - name: Spellbee
+    homepage: https://spellbee.streamlit.app/
+    image: https://user-images.githubusercontent.com/41324509/236699782-1176e4b1-0ac8-4e1d-8b92-f3c5759b2f4e.png
+    github_id: SiddhantSadangi/spellbee
+    category: non-ml
+    show: True
