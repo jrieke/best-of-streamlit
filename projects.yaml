@@ -661,4 +661,9 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
-
+  - name: Object Detection App - Yolov5
+    homepage: https://objectdetection-yolov5.streamlit.app
+    image: https://raw.githubusercontent.com/Bala-Vignesh-Reddy/Object-Detection-Yolov5/main/data/image.png
+    github_id: https://github.com/Bala-Vignesh-Reddy/Object-Detection-Yolov5/
+    category: cv
+    show: True
