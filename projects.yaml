@@ -661,4 +661,9 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
+  - name: Article Summarizer
+    homepage: https://github.com/vedantpople4/AiProjects/tree/main/Summarization-tool
+    github_id: vedantpople4/AiProjects/Summarization-tool
+    category: nlp
+    show: True
 
