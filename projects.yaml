@@ -661,4 +661,10 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
+  - name: Chesswright
+    homepage: https://github.com/Hawi254/chesswright
+    github_id: Hawi254/chesswright
+    description: Local desktop app running real Stockfish analysis of your own Lichess games, entirely offline
+    category: non-ml
+    show: True
 
