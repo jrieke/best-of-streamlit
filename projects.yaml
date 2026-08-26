@@ -661,4 +661,9 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
+  - name: Kaoyan Data Analyzer
+    homepage: https://kaoyan-data-analyzer-odrzczrrrk4yt5psd9kz86.streamlit.app/
+    github_id: CAlM123451/kaoyan-data-analyzer
+    category: non-ml
+    show: True
 
