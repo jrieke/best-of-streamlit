@@ -661,4 +661,11 @@ projects:
     github_id: RasaHQ/NLU-training-data
     category: nlp
     show: True
+  - name: FishID Studio
+    homepage: https://github.com/viniciusscience/fishid-studio
+    description: Open-source Computer Vision & Deep Learning platform for marine fish species identification, electronic monitoring (EM), video tracking (ByteTrack + SAM 2), biometry & Grad-CAM explainability
+    image: https://raw.githubusercontent.com/viniciusscience/fishid-studio/main/docs/fishid_em_demo.gif
+    github_id: viniciusscience/fishid-studio
+    category: cv
+    show: True
 
